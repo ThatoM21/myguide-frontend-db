@@ -21,7 +21,7 @@ The application helps users discover places to visit, find useful information ab
 * Flutter
 * Dart
 * Android Studio / Visual Studio Code
-* Firebase / Database (if used by the project)
+* Firebase / Database 
 
 ## Project Structure
 
