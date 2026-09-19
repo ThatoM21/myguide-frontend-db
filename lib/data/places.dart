@@ -1,0 +1,223 @@
+const List<Map<String, dynamic>> places = [
+  {
+    "title": "Union Buildings",
+    "location": "Arcadia, Pretoria",
+    "lat": -25.7405,
+    "lng": 28.2116,
+    "rating": "4.9",
+    "category": "Attraction",
+    "image": "assets/images/union_buildings.jpg",
+    "description":
+        "The Union Buildings are the official seat of the South African Government and one of Pretoria's most iconic landmarks.",
+    "moreInfo":
+        "The Union Buildings were designed by Sir Herbert Baker and completed in 1913. They serve as the official seat of the South African government and house the offices of the President. Visitors can enjoy the beautiful terraced gardens, panoramic views of Pretoria, and the famous Nelson Mandela statue.",
+    "hours": "08:00 - 17:00",
+    "distance": "2.3 km",
+  },
+  {
+    "title": "Church Square",
+    "location": "Pretoria Central",
+    "lat": -25.7461,
+    "lng": 28.1881,
+    "rating": "4.8",
+    "category": "Attraction",
+    "image": "assets/images/church_square.jpg",
+    "description":
+        "Church Square is the historical heart of Pretoria and home to many heritage buildings.",
+    "moreInfo":
+        "Church Square has been the center of Pretoria since the city's founding in 1855. It is surrounded by important heritage buildings, including the Palace of Justice and the Old Capitol Theatre. The square is also home to the statue of Paul Kruger and is a popular destination for visitors interested in South African history.",
+    "hours": "Open 24 Hours",
+    "distance": "1.1 km",
+  },
+  {
+    "title": "Freedom Park",
+    "location": "Salvokop",
+    "lat": -25.7711,
+    "lng": 28.1870,
+    "rating": "4.8",
+    "category": "Attraction",
+    "image": "assets/images/freedom_park.jpg",
+    "description":
+        "Freedom Park celebrates South Africa's history and honours those who fought for freedom.",
+    "moreInfo":
+        "Freedom Park is a national heritage site dedicated to remembering South Africa's journey to democracy. Visitors can explore museums, memorials, gardens, and exhibitions that tell the story of the country's diverse history and cultural heritage.",
+    "hours": "08:00 - 16:30",
+    "distance": "3.7 km",
+  },
+  {
+    "title": "Voortrekker Monument",
+    "location": "Pretoria",
+    "lat": -25.7769,
+    "lng": 28.1752,
+    "rating": "4.9",
+    "category": "Attraction",
+    "image": "assets/images/voortrekker.jpg",
+    "description":
+        "A world-famous monument offering panoramic views over Pretoria.",
+    "moreInfo":
+        "The Voortrekker Monument commemorates the Voortrekkers who left the Cape Colony during the Great Trek. The monument features impressive architecture, historical exhibits, a museum, and spectacular views of Pretoria from its upper levels.",
+    "hours": "08:00 - 17:00",
+    "distance": "5.0 km",
+  },
+  {
+    "title": "National Zoological Garden",
+    "location": "Pretoria CBD",
+    "lat": -25.7324,
+    "lng": 28.1894,
+    "rating": "4.7",
+    "category": "Attraction",
+    "image": "assets/images/zoo.jpg",
+    "description":
+        "South Africa's national zoo with hundreds of animal species.",
+    "moreInfo":
+        "The National Zoological Garden is the largest zoo in South Africa. It is home to thousands of animals from around the world, including mammals, reptiles, birds, and marine life. The zoo also offers picnic areas, guided tours, and educational programmes.",
+    "hours": "08:30 - 17:30",
+    "distance": "2.8 km",
+  },
+  {
+    "title": "Loftus Versfeld Stadium",
+    "location": "Arcadia",
+    "lat": -25.7545,
+    "lng": 28.2226,
+    "rating": "4.7",
+    "category": "Attraction",
+    "image": "assets/images/loftus.jpg",
+    "description":
+        "A famous rugby and football stadium located in Pretoria.",
+    "moreInfo":
+        "Loftus Versfeld Stadium is one of South Africa's most iconic sporting venues. It regularly hosts rugby, football, concerts, and international sporting events. The stadium has a rich sporting history and is home to the Vodacom Bulls rugby team.",
+    "hours": "Event Dependent",
+    "distance": "2.6 km",
+  },
+    {
+    "title": "The Capital Pretoria",
+    "location": "Arcadia, Pretoria",
+    "lat": -25.7440,
+    "lng": 28.2134,
+    "rating": "4.6",
+    "category": "Hotel",
+    "image": "assets/images/capital_pretoria.jpg",
+    "description": "Modern luxury hotel near the Union Buildings.",
+    "moreInfo":
+        "The Capital Pretoria offers luxury rooms, conference facilities, a swimming pool and free Wi-Fi.",
+    "hours": "Open 24 Hours",
+    "distance": "2.0 km",
+  },
+
+  {
+    "title": "Manhattan Hotel",
+    "location": "Pretoria CBD",
+    "lat": -25.7485,
+    "lng": 28.1903,
+    "rating": "4.5",
+    "category": "Hotel",
+    "image": "assets/images/manhattan_hotel.jpg",
+    "description": "One of Pretoria's most popular business hotels.",
+    "moreInfo":
+        "Located in the CBD with restaurants, conference venues and comfortable accommodation.",
+    "hours": "Open 24 Hours",
+    "distance": "1.4 km",
+  },
+
+  {
+    "title": "StayEasy Pretoria",
+    "location": "Pretoria CBD",
+    "lat": -25.7474,
+    "lng": 28.1895,
+    "rating": "4.4",
+    "category": "Hotel",
+    "image": "assets/images/stayeasy.jpg",
+    "description": "Affordable accommodation in Pretoria.",
+    "moreInfo":
+        "StayEasy provides comfortable rooms, breakfast and secure parking.",
+    "hours": "Open 24 Hours",
+    "distance": "1.5 km",
+  },
+    {
+    "title": "Kream Restaurant",
+    "location": "Brooklyn",
+    "lat": -25.7698,
+    "lng": 28.2367,
+    "rating": "4.8",
+    "category": "Restaurant",
+    "image": "assets/images/kream.jpg",
+    "description": "Fine dining restaurant in Pretoria.",
+    "moreInfo":
+        "Kream serves premium steaks, seafood and international cuisine.",
+    "hours": "11:00 - 22:00",
+    "distance": "6.3 km",
+  },
+
+  {
+    "title": "Crawdaddy's",
+    "location": "Brooklyn",
+    "lat": -25.7689,
+    "lng": 28.2370,
+    "rating": "4.6",
+    "category": "Restaurant",
+    "image": "assets/images/crawdaddys.jpg",
+    "description": "Popular grill and seafood restaurant.",
+    "moreInfo":
+        "Known for steaks, seafood and family-friendly dining.",
+    "hours": "10:00 - 22:00",
+    "distance": "6.2 km",
+  },
+    {
+    "title": "Menlyn Park Shopping Centre",
+    "location": "Menlyn",
+    "lat": -25.7845,
+    "lng": 28.2758,
+    "rating": "4.8",
+    "category": "Shopping",
+    "image": "assets/images/menlyn.jpg",
+    "description": "One of Africa's largest shopping malls.",
+    "moreInfo":
+        "Menlyn Park offers over 500 stores, restaurants and entertainment.",
+    "hours": "09:00 - 20:00",
+    "distance": "11 km",
+  },
+
+  {
+    "title": "Brooklyn Mall",
+    "location": "Brooklyn",
+    "lat": -25.7690,
+    "lng": 28.2360,
+    "rating": "4.7",
+    "category": "Shopping",
+    "image": "assets/images/brooklyn_mall.jpg",
+    "description": "Premium shopping destination.",
+    "moreInfo":
+        "Brooklyn Mall features fashion stores, restaurants and cinemas.",
+    "hours": "09:00 - 19:00",
+    "distance": "6 km",
+  },
+    {
+    "title": "Loftus Versfeld Match Day",
+    "location": "Arcadia",
+    "lat": -25.7545,
+    "lng": 28.2226,
+    "rating": "4.8",
+    "category": "Event",
+    "image": "assets/images/loftus.jpg",
+    "description": "Watch live rugby and football matches.",
+    "moreInfo":
+        "Loftus Versfeld regularly hosts rugby, football and entertainment events.",
+    "hours": "Event Times",
+    "distance": "2.6 km",
+  },
+
+  {
+    "title": "Jacaranda Festival",
+    "location": "Pretoria",
+    "lat": -25.7461,
+    "lng": 28.1881,
+    "rating": "4.7",
+    "category": "Event",
+    "image": "assets/images/jacaranda_city.jpg",
+    "description": "Celebrate Pretoria's famous jacaranda season.",
+    "moreInfo":
+        "The festival includes food stalls, music, local markets and family activities.",
+    "hours": "Seasonal",
+    "distance": "3 km",
+  },
+];
